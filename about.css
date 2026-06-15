@@ -1,0 +1,216 @@
+/*header*/
+* a{
+text-decoration: none;
+}
+.nav {
+height:170px;
+width:auto;
+background-color:#B10808E6;
+display: flex;
+}
+.school-logo img {
+  height:140px;
+  width:140px;
+  padding:15px 0px 0px 40px;
+}
+.contact-section {
+  color:white;
+  font:19px roboto, sans-serif;
+  padding:20px 0px 0px 40px;
+}
+ .contact-section a {
+  padding-right:20px;
+  color:white;
+} 
+.affiliation-no {
+  height:45px;
+  width:300px;
+  border:2px solid #B10808E6;
+  border-radius:17px;
+  background-color:#FDC800;
+   margin:17px 0px 0px 300px;
+   text-align: center;
+   padding-top:15px;
+   font: 16px "DM Sans",sans-serif;
+   color:#B10808E6;
+}
+.row-1 {
+  display: flex;
+}
+.element a {
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.element {
+  margin-top:26px;
+padding-left:120px;
+display: flex;
+justify-content: space-evenly;
+}
+/* main-section */
+.contact-Us {
+  position: relative;
+}
+.contact-Us  img {
+height:390px;
+width:1470px;
+display: block;
+}
+.contact-Us h1 {
+  position: absolute;
+  top:50%;
+left:18%;
+  transform: translate(-50%,-50%);
+  color:#ffffff;
+  margin:0;
+  font:50px Roboto,sans-serif;
+}
+.contact-Us p {
+    position: absolute;
+  top:55%;
+left:11%;
+color:#ffffff;
+font:25px Roboto,sans-serif;
+}
+.contact-Us a {
+  text-decoration: none;
+  color:rgb(230, 28, 28);
+}
+.head-about  {
+text-align: center;
+color:#B10808E6;
+font:49px Roboto,sans-serif;
+margin-top:70px;
+}
+.vision-section {
+  height:180px;
+  width:1170px;
+  margin:50px 0px 50px 125px;
+}
+.vision-section h4,p{
+  font:20px Roboto,sans-serif;
+  color:#212121;
+}
+.Mission {
+    height:680px;
+  width:1483px;
+}
+.Mission-sec {
+  height:800px;
+  width:1300px;
+ margin-top:70px;
+ margin-left:70px;
+} 
+.Mission-sec p,ul{
+  font:18px Roboto,sans-serif;
+  color:#444444;
+  line-height: 30px;
+}
+ .embody    {
+  color:#B10808E6;
+  font:22px Roboto,sans-serif;
+  margin:30px 0px 20px 30px;
+ }
+ .Institute {
+  height:350px;
+  width:auto;
+  background-color: #f8f8f8;
+ }
+ .Institute h2 {
+  color:#B50505;
+  text-align: center;
+  font:48px Roboto,sans-serif;
+  padding-top:50px; 
+ }  
+  .Facility {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Facility-box {
+height:156px;
+width:390px;
+  }
+.image-box {
+  height:100px;
+  width:100px;
+  border-radius: 50px;
+    background-color:white;
+    margin-left:130px;
+}
+.image-box img {
+  padding:23px;
+}
+
+ .Facility h3 {
+  font:28px Roboto,sans-serif;
+  text-align:center;
+  color:#B10808E6;
+ }
+ .kvs-family {
+  height:300px;
+  width:1480px;
+  background-color:#FDC800;
+  margin-top:100px;
+ }
+  .kvs-family  h2 {
+    text-align: center;
+    color:#102C57;
+    font:36px Poppins,sans-serif;
+    font-weight:bolder;
+    padding-top:50px;
+  }
+   .kvs-family  p {
+      text-align: center;
+      color:#102C57CC;
+   }
+    .apply-contact-outer {
+      height:50px;
+      width:600px;
+       margin:50px 40px 20px 450px;
+       display: flex;
+    }
+    .apply-contact {
+      height:35px;
+      width:200px;
+      background-color:#102C57;
+      border-radius: 22px;
+       text-align: center;
+       padding-top:15px;  
+       margin-left:48px;
+        }
+         .apply-contact a {
+          color:white;
+          font:20px inter,sans-serif;
+         }
+/* footer  */
+.foot {
+  background-color:#B10808E6;
+
+  height:350px;
+  padding-top:20px;
+       color:white;
+}
+.foot-box {
+    display: flex;
+     justify-content: space-evenly;
+}
+.foot a {
+    color:white;
+    text-decoration: none;
+         font:18px "DM Sans",sans-serif;
+             line-height:30px;
+}
+  .foot h2 {
+    font-size:27px;
+    padding-left:20px;
+  }
+  .Copyright  {
+      color:white;
+      text-align: center;
+      font: 18px "Days One",sans-serif;
+      margin-bottom:10px; 
+     }
+     .foot ul {
+      list-style:none;
+     }

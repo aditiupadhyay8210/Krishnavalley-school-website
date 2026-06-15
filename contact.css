@@ -1,0 +1,219 @@
+/*header*/
+* a{
+  text-decoration: none;
+}
+.nav {
+height:170px;
+width:auto;
+background-color:#B10808E6;
+display: flex;
+}
+.school-logo img {
+  height:140px;
+  width:140px;
+  padding:15px 0px 0px 40px;
+}
+.contact-section {
+  color:white;
+  font:19px roboto, sans-serif;
+  padding:20px 0px 0px 40px;
+}
+a {
+  padding-right:20px;
+  color:white;
+} 
+.affiliation-no {
+  height:45px;
+  width:300px;
+  border:2px solid #B10808E6;
+  border-radius:17px;
+  background-color:#FDC800;
+   margin:17px 0px 0px 300px;
+   text-align: center;
+   padding-top:15px;
+   font: 16px "DM Sans",sans-serif;
+   color:#B10808E6;
+}
+.row-1 {
+  display: flex;
+}
+.element a {
+  color:white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.element {
+  margin-top:26px;
+padding-left:120px;
+display: flex;
+justify-content: space-evenly;
+}
+/* main-section */
+.contact-Us {
+  position: relative;
+}
+.contact-Us  img {
+height:390px;
+width:1480px;
+display: block;
+}
+.contact-Us h1 {
+  position: absolute;
+  top:50%;
+left:18%;
+  transform: translate(-50%,-50%);
+  color:#ffffff;
+  margin:0;
+  font:50px Roboto,sans-serif;
+}
+.contact-Us p {
+    position: absolute;
+  top:55%;
+left:11%;
+color:#ffffff;
+font:24px Roboto,sans-serif;
+}
+.contact-Us a {
+  text-decoration: none;
+  color:rgb(230, 28, 28);
+}
+table {
+  height:323px;
+  width:1300px;
+margin:90px 0px 0px 90px;
+}
+table,th,td {
+  border:1px solid rgb(117, 115, 115);
+  border-collapse: collapse;
+}
+td {
+  padding-left:13px;
+  color:black;
+  font: 18px Roboto,sans-serif;
+}
+th {
+  text-align: left;
+  padding-left:10px;
+  color:#FDC800;
+  background-color: #B50505;
+font:19px Roboto,sans-serif;
+}
+.Contact-form {
+margin:90px 0px 0px 90px;
+display: flex;
+}
+.address {
+height:100px;
+width:400px;
+border:2px solid #FDC800;
+padding-bottom:20px;
+}
+.address h3 {
+  color:#B50505;
+  font: 24px Roboto,sans-serif;
+  padding-left:50px;
+}
+.address p {
+  font:18px Roboto,sans-serif;
+  padding-left:40px;
+}
+.E-mail {
+height:100px;
+width:400px;
+border:2px solid #FDC800;
+padding-bottom:20px;
+}
+.E-mail h3 {
+ color:#B50505;
+  font: 24px  Roboto,sans-serif;
+  padding-left:50px;
+}
+.E-mail p {
+  font:18px  Roboto,sans-serif;
+  padding-left:40px;
+}
+.Follow-Us {
+height:100px;
+width:400px;
+border:2px solid #FDC800;
+  padding-bottom:20px;
+}
+.Follow-Us h3 {
+ color:#B50505;
+  font: 24px Roboto,sans-serif;
+  padding-left:50px;  
+}
+ul {
+  list-style-type: none;
+}
+.fa-brands {
+  font-size:20px;
+  color:#B50505;
+  padding-left:5px;
+}
+.Contact {
+  color:#B50505;
+padding-left:70px;
+  text-align: center;
+  margin-top:100px;
+}
+input {
+  height:40px;
+  width:400px;
+  font-size: 17px;
+  margin:40px 0px 0px 30px;
+}
+textarea {
+  height:100px;
+  width:800px;
+    padding-left:10px;
+  margin:40px 0px 0px 25px;
+}
+.submit {
+  height:51px;
+width:162px;
+border:2px solid #B50505;
+background-color: #B50505;
+color:white;
+font:16px Roboto,sans-serif;
+}
+.underline {
+  height:3px;
+  width:90px;
+  background-color: #FDC800;
+  margin-left:650px;
+}
+.map {  
+  margin-top:60px;
+  padding-left:10px;
+}
+/* footer  */
+.foot {
+  background-color:#B10808E6;
+  margin-top:80px;
+  height:350px;
+  padding-top:20px;
+       color:white;
+}
+.foot-box {
+    display: flex;
+     justify-content: space-evenly;
+}
+.foot a {
+    color:white;
+    text-decoration: none;
+         font:18px "DM Sans",sans-serif;
+             line-height:30px;
+}
+  .foot h2 {
+    font-size:27px;
+    padding-left:20px;
+  }
+  .Copyright  {
+      color:white;
+      text-align: center;
+      font: 18px "Days One",sans-serif;
+      margin-bottom:10px; 
+     }
+  
+
