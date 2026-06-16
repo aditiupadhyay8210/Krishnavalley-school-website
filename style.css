@@ -2,66 +2,61 @@
 a {
   text-decoration: none;
 }
-.nav {
-height:170px;
-width:auto;
+.navbar {
+  height:170px;
+  width:auto;
 background-color:#B10808E6;
 display: flex;
 }
-.school-logo img {
+ .navbar section{
+  width:100%;
+}
+.school-logo  {
   height:140px;
-  width:140px;
+  width:auto;
   padding:15px 0px 0px 40px;
 }
 .contact-section {
-  color:white;
-  font:19px roboto, sans-serif;
-  padding:20px 0px 0px 40px;
-}
-a {
-  padding-right:20px;
-  color:white;
-    font-size: 19px;
-} 
-.affiliation-no {
-  height:45px;
-  width:300px;
-  border:2px solid #FDC800;
-  border-radius:17px;
-  background-color: #FDC800;
-   margin:19px 0px 0px 300px;
-   text-align: center;
-   padding-top:19px;
-   font: 17px "DM Sans",sans-serif;
-   color:#B10808E6;
-}
-.element {
-  margin-top:26px;
-padding-left:120px;
+  height:80px;
 display: flex;
-justify-content: space-evenly;
+justify-content: flex-end;
+font:19px roboto, sans-serif;
 }
 
+ .contact-section a {
+      padding-right:50px; 
+} 
+a,i{
+  color:white;
+   padding-top:15px;
+}
+.menu {
+display: flex;
+justify-content: space-around;
+font:19px roboto, sans-serif;
+  list-style: none; 
+}
 /* main-section */
 .inspiring-student {
   display: flex;
-  padding-top:50px;
+margin:50px 0px 50px 0px;
+}
+.school-img  {
+  height:600px;
+  width:1000px;
+margin-top:20px;
 }
 .text h2 {
-  font-size:35px;
-  color:red;
- margin-left:30px;
+    font: 29px 'Trebuchet MS',sans-serif;
+  color:#B10808E6;
 } 
 .text p{
-  font-size:30px;
+  font:19px Arial, sans-serif;
   color:rgb(207, 162, 12);
-margin-left:40px;
+  line-height: 29px;
 }
-.school-img img {
-  height:600px;
-  width:900px;
-padding-left:10px;
-margin-top:20px;
+.text h2,p {
+ padding-left:30px;
 }
 .element-section {
   display: flex;
