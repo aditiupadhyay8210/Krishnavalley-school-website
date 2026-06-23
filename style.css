@@ -1,400 +1,306 @@
-/*header*/
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+p , h4, .class-box span {
+ font:19px Arial, sans-serif;
+}
+h2 {
+    font:24px Arial,sans-serif;
+} 
+h3 {
+  font:23px Arial,sans-serif;
+}
+h1 {
+  font: 29px Arial, sans-serif;
+}
+.layout-flex {
+  display:flex;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.rounded {
+border-radius:17px;
+}
+         /*header*/
 a {
   text-decoration: none;
+   font:19px roboto, sans-serif;
 }
 .navbar {
-  height:170px;
-  width:auto;
+ height:170px;
 background-color:#B10808E6;
-display: flex;
 }
  .navbar section{
   width:100%;
 }
 .school-logo  {
-  height:140px;
+  height:150px;
   width:auto;
-  padding:15px 0px 0px 40px;
+  padding:18px 0 0 40px;
 }
 .contact-section {
-  height:80px;
-display: flex;
-justify-content: flex-end;
-font:19px roboto, sans-serif;
+  min-height:90px;
+justify-content:flex-end;
 }
-
- .contact-section a {
-      padding-right:50px; 
-} 
-a,i{
-  color:white;
+.contact-section a {
+  padding-right:50px; 
    padding-top:15px;
+} 
+a, i{
+  color:white;
+}
+i {
+padding-top:18px;
 }
 .menu {
-display: flex;
 justify-content: space-around;
-font:19px roboto, sans-serif;
   list-style: none; 
 }
-/* main-section */
-.inspiring-student {
-  display: flex;
-margin:50px 0px 50px 0px;
+nav {
+  margin-top:20px;
+}
+         /* main  */
+.section-spacing{
+  margin: 50px 0 50px;
 }
 .school-img  {
-  height:600px;
-  width:1000px;
-margin-top:20px;
+ height:590px;
+  width:970px;
 }
-.text h2 {
-    font: 29px 'Trebuchet MS',sans-serif;
+.school-content h1 {
   color:#B10808E6;
+  padding-bottom:20px;
 } 
-.text p{
-  font:19px Arial, sans-serif;
-  color:rgb(207, 162, 12);
+.school-content p{
+  color:#FDC800;
   line-height: 29px;
 }
-.text h2,p {
+.school-content  {
  padding-left:30px;
 }
-.element-section {
-  display: flex;
-justify-content: space-evenly;
-  padding-top:50px;
-}
-.inner-element {
-  height:160px;
-  width: 600px;
-  padding:15px;
-  display: flex;
+.grade-info {
+  min-height:160px;
+  max-width: 600px;
+  padding:17px;
   align-items: center;
   gap:30px;
+  background-color:#B10808E6;
+    color:#ffffff;
 }
-.inner-element ,
-.admission{
-  border:2px solid white;
-    border-radius:18px;
-    background-color:rgba(192, 15, 15, 0.918);
+.grade-info img { 
+  height:110px;
+  width:auto;
 }
-.inner-element img { 
-  height:100px;
-  width:100px;
+.grade-info p {
+  padding: 17px;
 }
-   h4,.admission p {
-  color:#ffffff;
-  font:19px Arial,sans-serif;
-}
-.admission {
-  height:140px;
-  width:560px;
-  padding:40px 34px 15px;
-}
-.admission a {
-  color:black;  
+.grade-info a {
+  color:black; 
+}   
+.grade-info h2 {
+  font-size:19px;
 } 
-.element-background-overlay {
-  margin-top:50px;
-  height:800px;
-  width:1410px;
+.hero-section {
+  min-height:730px;
 border: 2px solid black;
-border-radius: 18px;
 background-color: #FDC800;
-margin-left: 40px;
-display:flex;
 }
-.intro {
-  height:750.67px;
-  width:681.19px;
-  padding:20px;
-margin-left:50px;
+.hero-content {
+  flex:1;
+  margin:40px;
+  margin-left:60px;
 }
-.head1 {
-  color:#B10808E6;
-  font-size:38px;
+.hero-title{
+    color:#B10808E6;
 }
-.head2 {
-  color:#273272;
-  font:25px 'Trebuchet MS', sans-serif;
+.hero-content p, .hero-content ul,.hero-tagline,.hero-subtitle  {
+  padding:20px 0 0 20px;
 }
-.intro p {
-  color:black;
-  font:19px Arial, sans-serif;
-  margin:0px 0px 27px;
-}
-.intro li {
-  font-size:21px;
-}
-.head3 {
-  font:22px  'Trebuchet MS', sans-serif;
+.text-primary{
 color:#2D3389;
-  padding:10px 0px 0px 40px;
 }
-.brochoure {
-  height:46.75px;
-  width:330px;
- padding:7px 0px 0px 10px;
-  background-color:#6374DB;
-    border-radius: 18px;
-  border: 4px solid white;
-  margin:20px 0px 0px 40px;
+.hero-content ul, .hero-tagline  {
+  font-size:20px;
 }
-.brochoure a {
-  color:#ffffff;
-  font:19px Arial,sans-serif;
-    text-decoration: none;
+.hero-btn {
+  min-height:46px;
+  width:300px;
+  background-color:#2D3389;
+  border: 3px solid white;
+  margin:35px 0 0 60px;
 }
-.student {
-  height:700.35px;
-  width:527.46px;
-  padding:50px 0px 0px 20px;
+.hero-img img {
+min-height:660px;
+max-width:540px;
+border:2px solid white;
+border-radius:17px;
 }
-.student img {
-height:650.36px;
-width:527.49px;
-border:2px solid rgb(247, 246, 246);
-border-radius:16px;
+.nurturing-section {
+  min-height:1580px;
+  width:100%;
+  padding-top:70px;
+  background-image: url("background-image1.jpg");
 }
-.inner-background-overlay {
-  height:1600.27px;
-  width:1410px;
-  padding-top:50px;
-  margin-top:50px;
-  background-image: url("background-image.jpg");
-    margin-left:40px;
-    margin-bottom:50px;
-}
-.inner-element-section {
-  color:#2D3389;
-  font:25px 'Trebuchet Ms', sans-serif;
+.section-head h3, .inner-element-section h2, .grade-info p, .class-box, .hero-title  {
   text-align:center;
-margin-right:80px;
 }
-.title {
-  display: flex;
+.inner-element-section h2{
+  font-size:30px;
 }
-.elementor-divider {
-width:300px;
-border-top:10px dotted #f4b400;
-margin:40px 0px 0px 100px;
+.section-title {
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
-.head h3 {
-  color:#2D3389;
-  font: 27px 'Trebuchet MS',sans-serif;
-  text-align: center;
-margin-left:100px;
+.divider {
+  width: 25%;
+  border-top: 10px dotted #FDC800;
 }
-.skills {
-  height:90px;
-  width:1100px;
-  margin:10px 0px;
-  padding:0px 130px;
+.section-head h3 {
+  margin: 30px;
 }
-.skills p {
-  font:19px Arial, sans-serif;
-  padding-top:20px;
-  text-align: center;
-}
-.elementor-section {
-  height:700.06px;
-  width:1200px;
-  padding:20px 10px;
-  margin:60px 0px 0px 85px;
-  display: flex;
-    justify-content: space-evenly;
-}
-.box {
-  height:550.06px;
-  width:307.5px;
-  margin-left:20px;
-  margin-top:16px;
-  border:5px solid rgb(24, 3, 3);
-  border-radius:17px;
-  background-color: white;
+.skills  {
+   max-width:90%;
+  margin:30px auto;
   text-align:center;
-  background-color: #faea0e;
+  line-height:1.8;
 }
-.box h2{
-  margin-top:40px;
-font-size:24px;
-font-family: Arial,sans-serif;
+.class-section {
+  min-height:700px;
+  width:100%;
 }
-  .box span {
-font-size:18px;
-font-family: Arial,sans-serif;
+.class-box {
+  height:550px;
+  max-width:307px;
+  margin-top:20px;
+  border:3px solid black;
+  background-color: #FDC800;
+}
+.class-box h3 {
+  padding-top:25px;
+}
+  .class-box p {
+  line-height:29px;
+    padding-top:19px;
   }
-  .box p {
-  line-height:25px;
-    font-size:19px;
-    font-family: "Guradian sans",sans-serif;
-    color:#111111;
-    text-align: center;
-    padding-top:10px;
-  }
- .box1-img,.box2-img,.box3-img {
-height:200px;
-width:305px;
-  border-radius:17px;
- margin: 0px 1px 1px;
-   border-radius:17px;
+ .school-student-img {
+min-height:200px;
+width:100%;
+border-radius:17px 17px 0 0;
   background-size: cover;
+  background-position:center;
  }
-.box1-img {
+.pre-school-img{
   background-image: url("imagebox1.webp");
 }
-.box2-img{
+.primary-school-img{
   background-image: url("imagebox2.jpg");
 }
-.box3-img {
+.middle-school-img  {
   background-image: url("imagebox3.jpg");
 }
+.pre-school{
+  color:red;
+}
+.primary-school{
+  color:rgb(38,133,38);
+} 
 .chairman {
-  height:454.28px;
-  width:1350px;
-  margin-left:27px;
-  border-radius:19px;
-background-image: url(back-img.jpg);
+  min-height:420px;
+  max-width:1350px;
+  margin-left:60px;
+background-image: url(background-image2.jpg);
 background-size: cover;
-display: flex;
 }
 .head-img {
-margin:40px 0px 0px 19px;
+margin:40px 0 0 px;
 }
-.message {
-  height:414.28px;
-  width:908.53px;
-padding:50px 0px 0px 70px;
+.chairman-message {
+
+  max-width:908px;
+padding:50px 0px 0px 20px;
 }
-.message h2 {
-  font:27px "Trebuchet MS", sans-serif;
-}
-.para1 {
-font:20px "Guardian sans",sans-serif;
-color:#0615e7;
+.para1,.para2 {
+padding-top:15px;
 }
 .para2 {
-  font:20px Arial, sans-serif;
   line-height: 29px;
 }
 .para2 a {
-  color:#0615e7;
   text-decoration: underline;
+  color:#2D3389
 }
 .head-img img {
-  height:300.28px;
-  width:320.45px;
+  min-height:300px;
+  max-width:320px;
   background-color: #2D3389;
   margin:30px 0px 0px 18px;
-  border-radius: 19px;
+  border-radius: 17px;
 }
-.Global {
-  height:411px;
-  width:1420px;
-margin:100px 0px 0px 10px;
+.associated-section  {
+  min-height:540px;
+  width:100%;
+  background-image: url("background-image3.jpg");
 }
-.head-1 {
-color:#FF0000;
-font:32px "Trebuchet MS", sans-serif;
-}
-.head-2 {
-  color:#2D3389;
-  font:23px "Trebuchet MS", sans-serif;
-}
-.inner-global p {
- font:19px Arial, sans-serif; 
-line-height:25px;
-}
-    .inner-global p stong {
-  color:#FF0000;
-}
-.Associated {
-  height:650px;
-  width:1420px;
-  background-image: url("sky-img.jpg");
-margin:0px 10px 0px 0px;
-margin-top:500px;
-}
-.inner-Associated {
+.inner-associated {
 background-color:#F8F8F8;
-padding:20px 10px;
+padding:20px  20px;
 }
-.asso-with {
-  padding:10px;
-}
-.asso-with h2 {
-  color:#2D3389;
-  font: 26px "Trebuchet MS", Arial, sans-serif;
+.inner-associated h2, .Facilities h3 {
   text-align: center;
 }
-.divider {
+.section-divider {
   color:#334155;
   width:1300px;
-padding-left:60px;
+margin-left:60px;
 }
-.Education {
-  height:200px;
-  width:1270px;
-  margin:80px 0px 0px 64px;
+.education {
+  min-height:200px;
+  max-width:1270px;
+  margin:50px 0 0 90px;
   border: 3px solid rgb(39, 102, 3);
-  display:flex;
   border-radius:10px;
 }
-.Education div {
-height:200px;
-width:400px;
+.education div {
+min-height:200px;
+max-width:400px;
 }
-.dotted-line {
-  display: flex;
-  margin:20px 0px 0px 120px;
-}
-.dotted-line  h2{
-  font:27px "Trebuchet MS", Arial, sans-serif;
-  color:#2D3389;
-  text-align: center;
-padding-top:30px;
-margin-left:20px;
+.facilities  {
+justify-content: center;
+align-items: center;
+margin-top:40px;
+gap:30px;
 }
 .dot  {
-   height:39px;
-   width:300px;
-   border-top:10px dotted #f4b400;
-   margin:70px 0px 0px 20px;
+  width:300px;
+   border-top:10px dotted #FDC800;
 }
-.Activities {
-  height:1500px;
-  width:1420px;
-  margin-top:60px;
-  background-color:#eea508;
-  border-radius:15px;
+.activities {
+  min-height:1500px;
+  width:100%;
+  background-color:#FDC800;
 }
 .activity-box {
-height:389.93px;
-width:1390px;
-margin-left:15px;
 display: flex;
-justify-content: space-evenly;
+justify-content: space-around;
 padding-top:100px;
 }
 .Available-items {
-  height:349.38px;
-  width:436.66px;
-  border:3px solid white;
-margin-top:10px;
+  min-height:349px;
+  max-width:436px;
 background-color: #f8f8f5;
-border-radius: 18px;
+border:2px solid #f8f8f5;
 }
 .Available-items img {
-background-image: url("science-experiments.webp");
-background-size: cover;
 height:300px;
-width:436.66px;
-border-radius: 19px;
+width:436px;
+border-radius: 17px;
 }
 .Available-items h2 {
-  color:#273272;
- margin-top:5px; 
 text-align: center;  
-font-size:25px;
 }
 /* footer */
 .foot {
