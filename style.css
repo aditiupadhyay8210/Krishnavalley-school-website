@@ -49,7 +49,7 @@ justify-content:flex-end;
   padding-right:50px; 
    padding-top:15px;
 } 
-a, i{
+a, i, .copyright, .foot h2 {
   color:white;
 }
 i {
@@ -163,7 +163,7 @@ border-radius:17px;
   margin: 30px;
 }
 .skills  {
-   max-width:90%;
+   max-width:85%;
   margin:30px auto;
   text-align:center;
   line-height:1.8;
@@ -284,7 +284,6 @@ gap:30px;
   background-color:#FDC800;
 }
 .activity-box {
-display: flex;
 justify-content: space-around;
 padding-top:100px;
 }
@@ -305,33 +304,31 @@ text-align: center;
 /* footer */
 .foot {
   background-color:#B10808E6;
-  margin-top:80px;
-  height:350px;
-  padding-top:20px;
-  color:white;
+ min-height:350px;
 }
 .foot-box ul {
  list-style-type: none;
 }
 .foot-box {
- display: flex;
- justify-content: space-evenly;
+padding:30px 0 15px;
+}
+.foot-box  h2 {
+  padding-bottom:15px;
+}
+.footer-logo{
+  height:180px;
+  width:auto;
+  margin-top:25px;
 }
 .foot a {
- color:white;
-text-decoration: none;
-font:18px "DM Sans",sans-serif;
- line-height:30px;
+ line-height:32px;
 }
- .foot h2 {
+ .foot-box li {
  font-size:27px;
- padding-left:20px;
   }
- .Copyright  {
-color:white;
+ .copyright  {
 text-align: center;
- font: 18px "Days One",sans-serif;
- margin-bottom:10px; 
+padding-bottom:10px;
 }
 
 
