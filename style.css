@@ -58,6 +58,7 @@ padding-top:18px;
 .menu {
 justify-content: space-around;
   list-style: none; 
+  padding:0 30px 0 40px;
 }
 nav {
   margin-top:20px;
@@ -67,7 +68,7 @@ nav {
   margin: 50px 0 50px;
 }
 .school-img  {
- height:590px;
+ height:550px;
   width:970px;
 }
 .school-content h1 {
@@ -79,7 +80,7 @@ nav {
   line-height: 29px;
 }
 .school-content  {
- padding-left:30px;
+ padding:0 30px 0 30px;
 }
 .grade-info {
   min-height:160px;
@@ -98,7 +99,7 @@ nav {
   padding: 17px;
 }
 .grade-info a {
-  color:black; 
+  color:#FDC800; 
 }   
 .grade-info h2 {
   font-size:19px;
@@ -133,10 +134,11 @@ color:#2D3389;
   margin:35px 0 0 60px;
 }
 .hero-img img {
-min-height:660px;
-max-width:540px;
+min-height:620px;
+max-width:520px;
 border:2px solid white;
 border-radius:17px;
+margin-left:30px;
 }
 .nurturing-section {
   min-height:1580px;
@@ -174,7 +176,7 @@ border-radius:17px;
 }
 .class-box {
   height:550px;
-  max-width:307px;
+  max-width:320px;
   margin-top:20px;
   border:3px solid black;
   background-color: #FDC800;
@@ -261,7 +263,7 @@ margin-left:60px;
   min-height:200px;
   max-width:1270px;
   margin:50px 0 0 90px;
-  border: 3px solid rgb(39, 102, 3);
+  border: 3px solid #2D3389;
   border-radius:10px;
 }
 .education div {
@@ -276,7 +278,7 @@ gap:30px;
 }
 .dot  {
   width:300px;
-   border-top:10px dotted #FDC800;
+   border-top:10px dotted #2D3389;
 }
 .activities {
   min-height:1500px;
