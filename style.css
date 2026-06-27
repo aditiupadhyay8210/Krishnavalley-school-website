@@ -3,17 +3,8 @@
   padding:0;
   box-sizing:border-box;
 }
-p , h4, .class-box span {
- font:19px Arial, sans-serif;
-}
-h2 {
-    font:24px Arial,sans-serif;
-} 
-h3 {
-  font:23px Arial,sans-serif;
-}
-h1 {
-  font: 29px Arial, sans-serif;
+body {
+  font-family: Arial, sans-serif;
 }
 .layout-flex {
   display:flex;
@@ -24,16 +15,19 @@ h1 {
 .rounded {
 border-radius:17px;
 }
+.section-spacing{
+  margin: 50px 0 50px;
+}
          /*header*/
 a {
   text-decoration: none;
-   font:19px roboto, sans-serif;
+   font-size:18px;
 }
 .navbar {
  height:170px;
 background-color:#B10808E6;
 }
- .navbar section{
+.header-right {
   width:100%;
 }
 .school-logo  {
@@ -41,43 +35,42 @@ background-color:#B10808E6;
   width:auto;
   padding:18px 0 0 40px;
 }
-.contact-section {
+.contact-information {
   min-height:90px;
 justify-content:flex-end;
 }
-.contact-section a {
-  padding-right:50px; 
-   padding-top:15px;
+.contact-information a {
+padding:15px 40px 0 0;
 } 
-a, i, .copyright, .foot h2 {
-  color:white;
+.navbar a,
+.navbar i {
+  color: #fff;
 }
-i {
+ .contact-information i {
 padding-top:18px;
 }
 .menu {
 justify-content: space-around;
   list-style: none; 
-  padding:0 30px 0 40px;
+  padding:0 40px;
 }
-nav {
+.navbar nav {
   margin-top:20px;
 }
          /* main  */
-.section-spacing{
-  margin: 50px 0 50px;
-}
 .school-img  {
- height:550px;
+ height:490px;
   width:970px;
 }
 .school-content h1 {
   color:#B10808E6;
+  font-size:28px;
   padding-bottom:20px;
 } 
 .school-content p{
   color:#FDC800;
   line-height: 29px;
+  font-size:17px;
 }
 .school-content  {
  padding:0 30px 0 30px;
@@ -302,11 +295,14 @@ border-radius: 17px;
 }
 .Available-items h3 {
 text-align: center;  
-}
-/* footer */
+}/* footer  */
 .foot {
   background-color:#B10808E6;
  min-height:350px;
+ color:#fff;
+}
+.foot a{
+  color: #fff;
 }
 .foot-box ul {
  list-style-type: none;
@@ -320,7 +316,7 @@ padding:30px 0 15px;
 .footer-logo{
   height:180px;
   width:auto;
-  margin-top:25px;
+  margin-top:30px;
 }
 .foot a {
  line-height:32px;
@@ -332,6 +328,7 @@ padding:30px 0 15px;
 text-align: center;
 padding-bottom:10px;
 }
+
 
 
 
