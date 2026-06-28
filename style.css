@@ -62,7 +62,6 @@ justify-content: space-around;
   min-height:500px;
   width:100%;
 }      
-
 .school-img  {
  height:490px;
   width:970px;
@@ -78,6 +77,8 @@ justify-content: space-around;
   font-size:17px;
 }
 .school-content  {
+  min-height:490px;
+  max-width:660px;
  padding:0 30px 0 30px;
 }
 .grade-info {
