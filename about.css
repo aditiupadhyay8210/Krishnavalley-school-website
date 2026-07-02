@@ -1,216 +1,253 @@
-/*header*/
-* a{
-text-decoration: none;
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
 }
-.nav {
-height:170px;
-width:auto;
-background-color:#B10808E6;
-display: flex;
+body {
+  font-family: Roboto,sans-serif;
 }
-.school-logo img {
-  height:140px;
-  width:140px;
-  padding:15px 0px 0px 40px;
+:root {
+  --primary-red: #B10808E6;
+  --primary-yellow: #FDC800;
+  --primary-blue: #2D3389;
+  --white: #ffffff;
 }
-.contact-section {
-  color:white;
-  font:19px roboto, sans-serif;
-  padding:20px 0px 0px 40px;
+.layout-flex {
+  display:flex;
 }
- .contact-section a {
-  padding-right:20px;
-  color:white;
-} 
-.affiliation-no {
-  height:45px;
-  width:300px;
-  border:2px solid #B10808E6;
-  border-radius:17px;
-  background-color:#FDC800;
-   margin:17px 0px 0px 300px;
-   text-align: center;
-   padding-top:15px;
-   font: 16px "DM Sans",sans-serif;
-   color:#B10808E6;
+.section-spacing{
+  margin: 50px 0;
 }
-.row-1 {
-  display: flex;
+.text-center {
+  text-align: center;
+}  
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
-.element a {
-  color:white;
+         /*header*/
+a {
   text-decoration: none;
-  font-size: 20px;
+} 
+.navbar {
+height:170px;
+background-color:var(--primary-red);
 }
-.element {
-  margin-top:26px;
-padding-left:120px;
-display: flex;
-justify-content: space-evenly;
+.header-content { 
+  width:100%;
 }
-/* main-section */
-.contact-Us {
+.school-logo  {
+  height:150px;
+  width:auto;
+  padding:18px 0 0 40px;
+}
+.contact-information {
+  min-height:90px;
+justify-content:flex-end;
+}
+.contact-information a {
+padding:15px 40px 0 0;
+} 
+.navbar a,
+.navbar i {
+  color: var(--white);
+}
+ .contact-information i {
+padding-top:18px;
+}
+.navbar-menu {
+justify-content: space-around;
+  list-style: none; 
+  padding:0 40px;
+}
+.navbar nav {
+  margin-top:20px;
+}
+address{
+    font-style: normal;
+}
+ /* main  */
+.contact-us {
   position: relative;
 }
-.contact-Us  img {
-height:390px;
-width:1470px;
-display: block;
+.contact-us img {
+  display: block;
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
 }
-.contact-Us h1 {
+  .contact-us h1,
+.contact-us p {
   position: absolute;
-  top:50%;
-left:18%;
-  transform: translate(-50%,-50%);
-  color:#ffffff;
-  margin:0;
-  font:50px Roboto,sans-serif;
+  color: var(--white);
 }
-.contact-Us p {
-    position: absolute;
-  top:55%;
-left:11%;
-color:#ffffff;
-font:25px Roboto,sans-serif;
+.contact-us h1 {
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -50%);
 }
-.contact-Us a {
-  text-decoration: none;
-  color:rgb(230, 28, 28);
+.contact-us p {
+  top: 58%;
+  left: 11%;
+  font-size: 24px;
 }
-.head-about  {
-text-align: center;
-color:#B10808E6;
-font:49px Roboto,sans-serif;
-margin-top:70px;
+.contact-us a {
+  color: var(--primary-red);
 }
-.vision-section {
-  height:180px;
-  width:1170px;
-  margin:50px 0px 50px 125px;
+ .contact-us h1 {
+  font-size: 46px;
 }
-.vision-section h4,p{
-  font:20px Roboto,sans-serif;
-  color:#212121;
+.vision-title,
+.mission-title,
+.institution-title,
+.join-family-title {
+  font-size: 36px;
 }
-.Mission {
-    height:680px;
-  width:1483px;
+.mission-subtitle,
+.facility-card h3 {
+  font-size: 24px;
 }
-.Mission-sec {
-  height:800px;
-  width:1300px;
- margin-top:70px;
- margin-left:70px;
+p,
+li,
+a {
+  font-size: 18px;
+}
+.vision {
+  padding: 50px 0;
+}
+.vision-title {
+  margin-bottom: 25px;
+  color: var(--primary-red);
+}
+.vision-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.vision-content p {
+  margin-bottom: 18px;
+  line-height: 1.7;
 } 
-.Mission-sec p,ul{
-  font:18px Roboto,sans-serif;
-  color:#444444;
-  line-height: 30px;
+.vision-content p:last-child {
+  margin-bottom: 0;
 }
- .embody    {
-  color:#B10808E6;
-  font:22px Roboto,sans-serif;
-  margin:30px 0px 20px 30px;
- }
- .Institute {
-  height:350px;
-  width:auto;
-  background-color: #f8f8f8;
- }
- .Institute h2 {
-  color:#B50505;
+.mission-title {
+  margin-bottom: 25px;
+  color: var(--primary-red);
+}
+.mission-content {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.mission-content p {
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+.mission-subtitle {
+  margin: 30px 0 15px;
+  color: var(--primary-red);
+}
+.mission-list {
+  padding-left: 20px;
+}
+.mission-list li {
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.mission-list li:last-child {
+  margin-bottom: 0;
+}
+.institution {
+  padding-top: 50px;
+}
+.institution-title {
+  margin-bottom: 40px;
+  color: var(--primary-red);
+}
+.facility {
+  display: flex;
+  gap: 30px;
+}
+.facility-card {
+  flex: 1;
+  padding: 30px 20px;
   text-align: center;
-  font:48px Roboto,sans-serif;
-  padding-top:50px; 
- }  
-  .Facility {
-    display: flex;
-    justify-content: space-evenly;
-  }
-  .Facility-box {
-height:156px;
-width:390px;
-  }
-.image-box {
-  height:100px;
-  width:100px;
-  border-radius: 50px;
-    background-color:white;
-    margin-left:130px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }
-.image-box img {
-  padding:23px;
+.facility-icon {
+  margin-bottom: 20px;
+}
+.facility-icon img {
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+}
+.facility-card h3 {
+  color: var(--primary-red);
+}
+.join-family {
+  padding: 50px 0;
+  background-color: var(--primary-yellow);
+}
+.join-family-title {
+  margin-bottom: 15px;
+}
+.join-family-title,
+.join-family-text {
+  color: #222;
+}
+.join-family-text {
+  margin-bottom: 30px;
 }
 
- .Facility h3 {
-  font:28px Roboto,sans-serif;
-  text-align:center;
-  color:#B10808E6;
- }
- .kvs-family {
-  height:300px;
-  width:1480px;
-  background-color:#FDC800;
-  margin-top:100px;
- }
-  .kvs-family  h2 {
-    text-align: center;
-    color:#102C57;
-    font:36px Poppins,sans-serif;
-    font-weight:bolder;
-    padding-top:50px;
-  }
-   .kvs-family  p {
-      text-align: center;
-      color:#102C57CC;
-   }
-    .apply-contact-outer {
-      height:50px;
-      width:600px;
-       margin:50px 40px 20px 450px;
-       display: flex;
-    }
-    .apply-contact {
-      height:35px;
-      width:200px;
-      background-color:#102C57;
-      border-radius: 22px;
-       text-align: center;
-       padding-top:15px;  
-       margin-left:48px;
-        }
-         .apply-contact a {
-          color:white;
-          font:20px inter,sans-serif;
-         }
+.join-family-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  border: 2px solid var(--white);
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+}
+.btn-primary {
+  background-color: var(--primary-red);
+  color: var(--white);
+}
+.btn-secondary {
+  background-color: var(--primary-blue);
+  color: var(--white);
+}
 /* footer  */
-.foot {
-  background-color:#B10808E6;
-
-  height:350px;
-  padding-top:20px;
-       color:white;
+.footer {
+  background-color:var(--primary-red);
+ min-height:350px;
+ color:var(--white);
 }
-.foot-box {
-    display: flex;
-     justify-content: space-evenly;
+.footer a{
+  color: var(--white);
+   line-height:32px;
 }
-.foot a {
-    color:white;
-    text-decoration: none;
-         font:18px "DM Sans",sans-serif;
-             line-height:30px;
+.footer-content ul {
+ list-style: none;
 }
-  .foot h2 {
-    font-size:27px;
-    padding-left:20px;
-  }
-  .Copyright  {
-      color:white;
-      text-align: center;
-      font: 18px "Days One",sans-serif;
-      margin-bottom:10px; 
-     }
-     .foot ul {
-      list-style:none;
-     }
+.footer-content {
+padding:30px 0 15px;
+justify-content: space-evenly;
+}
+.footer-content  h2 {
+  padding-bottom:15px;
+}
+.footer-logo{
+  height:180px;
+  width:auto;
+  margin-top:30px;
+}
+ .copyright  {
+padding-bottom:10px;
+} 
