@@ -67,6 +67,10 @@ justify-content: space-around;
 address{
     font-style: normal;
 }
+.school-name ,
+.menu-toggle {
+  display:none;
+}
  /* main  */
 .contact-us {
   position: relative;
@@ -89,7 +93,7 @@ address{
 }
 .contact-us p {
   top: 58%;
-  left: 11%;
+  left: 12%;
   font-size: 24px;
 }
 .contact-us a {
@@ -117,7 +121,7 @@ a {
   padding: 50px 0;
 }
 .vision-title {
-  margin-bottom: 25px;
+  margin-bottom: 25px; 
   color: var(--primary-red);
 }
 .vision-content {
@@ -130,7 +134,7 @@ a {
 } 
 .vision-content p:last-child {
   margin-bottom: 0;
-}
+}  
 .mission-title {
   margin-bottom: 25px;
   color: var(--primary-red);
@@ -156,7 +160,7 @@ a {
 }
 .mission-list li:last-child {
   margin-bottom: 0;
-}
+}  
 .institution {
   padding-top: 50px;
 }
@@ -186,7 +190,7 @@ a {
 }
 .facility-card h3 {
   color: var(--primary-red);
-}
+} 
 .join-family {
   padding: 50px 0;
   background-color: var(--primary-yellow);
@@ -251,3 +255,202 @@ justify-content: space-evenly;
  .copyright  {
 padding-bottom:10px;
 } 
+   
+/* Responsive for mobile  */
+ @media (max-width:450px) {
+  
+   /* header-section */
+.navbar{
+    height:auto;
+    flex-direction:column;
+    align-items:flex-start;
+    padding:15px;
+    position:relative;
+}
+.school-logo{
+  height:80px;
+    width:auto;
+    padding:0;
+    margin:0;
+}
+.school-name{
+    display:block;
+    position:absolute;
+    top:35px;
+    left:50%;
+    transform:translateX(-50%);
+}
+.school-name span{
+    margin:0;
+    color:var(--white);
+    font-size:17px;
+    font-weight:700;
+    white-space:nowrap;
+    text-align:center;
+}
+.menu-toggle{
+    display:block;
+    position:absolute;
+    top:28px;
+    right:15px;
+    background:none;
+    border:none;
+    color:var(--white);
+    font-size:30px;
+    cursor:pointer;
+}
+.contact-information{
+    min-height:auto;
+    justify-content:flex-start;
+    align-items:center;
+    margin-top:9px;
+}
+.contact-information a{
+    padding:0 0 0 8px;
+    font-size:17px;
+}
+.contact-information i{
+    padding-top:0;
+    font-size:16px;
+}
+.contact-information .fa-envelope,
+.contact-information a[href^="mailto"]{
+    display:none;
+}
+.navbar-menu{
+    display:none;
+}
+  /* main  */
+
+    /* contact-us  */
+.contact-us img{
+    height:230px;
+}
+.contact-us h1{
+    top:45%;
+    left:8%;
+    transform:translateY(-50%);
+    font-size:29px;
+}
+.contact-us p{
+    top:58%;
+    left:8%;
+    font-size:19px;
+}
+  /* Vision  */
+
+  .vision {
+    padding: 30px 0;
+  }
+  .vision-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .vision-content {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .vision-content p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 18px;
+  }
+  .vision-content p:last-child {
+    margin-bottom: 0;
+  } 
+
+   /* mission  */
+
+  .mission {
+    padding: 35px 0;
+  }
+  .mission-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .mission-content {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .mission-content p {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  .mission-subtitle {
+    font-size: 22px;
+    margin: 25px 0 15px;
+    line-height: 1.4;
+  }
+    /* institution  */
+
+  .institution {
+    padding-top: 35px;
+  }
+  .institution-title {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+  .facility {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .facility-card {
+    padding: 25px 20px;
+  }
+  .facility-card h3 {
+    font-size: 20px;
+  }
+   /* Footer  */
+
+.footer{
+    min-height:auto;
+    padding:30px 0 15px;
+}
+.footer-content{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:35px;
+    padding:20px 0;
+}
+.footer-content h2{
+    font-size:22px;
+    padding-bottom:12px;
+}
+.footer-content ul{
+    padding:0;
+}
+.footer-content li{
+    font-size:18px;
+    line-height:1.8;
+}
+.footer a{
+    line-height:1.8;
+    word-break:break-word;
+}
+.footer-logo{
+    width:120px;
+    height:auto;
+    margin-top:0;
+}
+.social-links{
+    display:flex;
+    justify-content:center;
+    gap:18px;
+    margin-top:15px;
+}
+.social-links a{
+    font-size:24px;
+}
+.copyright{
+    font-size:14px;
+    padding:15px 10px;
+    line-height:1.5;
+} 
+}
+
+
+
+
+ 
