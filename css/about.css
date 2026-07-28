@@ -90,6 +90,7 @@ address{
   top: 50%;
   left: 18%;
   transform: translate(-50%, -50%);
+   font-size: 46px;
 }
 .contact-us p {
   top: 58%;
@@ -98,9 +99,6 @@ address{
 }
 .contact-us a {
   color: var(--primary-red);
-}
- .contact-us h1 {
-  font-size: 46px;
 }
 .vision-title,
 .mission-title,
